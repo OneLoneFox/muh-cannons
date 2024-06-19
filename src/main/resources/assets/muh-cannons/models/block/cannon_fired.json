@@ -1,0 +1,8 @@
+{
+  "parent": "muh-cannons:block/cannon_base",
+  "textures": {
+    "2": "muh-cannons:block/cannon_top_fired",
+    "particle": "muh-cannons:block/cannon_side"
+  },
+  "render_type": "solid"
+}

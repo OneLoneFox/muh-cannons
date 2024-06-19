@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "A A",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:iron_ingots"
+    }
+  },
+  "result": {
+    "item": "muh-cannons:cannon_barrel_medium",
+    "count": 1
+  }
+}

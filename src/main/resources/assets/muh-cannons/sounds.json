@@ -1,0 +1,8 @@
+{
+  "cannon_fire": {
+    "subtitle": "subtitles.muh-cannons.cannon_fire",
+    "sounds": [
+      "muh-cannons:cannon_fire"
+    ]
+  }
+}

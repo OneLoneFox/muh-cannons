@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "muh-cannons:block/cannon_barrel_medium" },
+    "facing=east":  { "model": "muh-cannons:block/cannon_barrel_medium", "y": 90 },
+    "facing=south": { "model": "muh-cannons:block/cannon_barrel_medium", "y": 180 },
+    "facing=west":  { "model": "muh-cannons:block/cannon_barrel_medium", "y": 270 }
+  }
+}

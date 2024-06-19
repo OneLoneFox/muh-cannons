@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IGI",
+    "GHG",
+    "IRI"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:iron_blocks"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "H": {
+      "item": "minecraft:hopper"
+    },
+    "G": {
+      "tag": "c:gold_ingots"
+    }
+  },
+  "result": {
+    "item": "muh-cannons:cannon",
+    "count": 1
+  }
+}

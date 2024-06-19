@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=north,triggered=false": { "model": "muh-cannons:block/cannon" },
+    "facing=north,triggered=true": { "model": "muh-cannons:block/cannon_fired" },
+    "facing=east,triggered=false":  { "model": "muh-cannons:block/cannon", "y": 90 },
+    "facing=east,triggered=true":  { "model": "muh-cannons:block/cannon_fired", "y": 90 },
+    "facing=south,triggered=false": { "model": "muh-cannons:block/cannon", "y": 180 },
+    "facing=south,triggered=true": { "model": "muh-cannons:block/cannon_fired", "y": 180 },
+    "facing=west,triggered=false":  { "model": "muh-cannons:block/cannon", "y": 270 },
+    "facing=west,triggered=true":  { "model": "muh-cannons:block/cannon_fired", "y": 270 }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "muh-cannons:item/cannon_ball"
+  }
+}

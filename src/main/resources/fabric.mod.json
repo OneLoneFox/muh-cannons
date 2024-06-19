@@ -1,0 +1,54 @@
+{
+	"schemaVersion": 1,
+	"id": "muh-cannons",
+	"version": "${version}",
+	"name": "Muh Cannons",
+	"description": "There were no good cannon mods working on 1.20.1 so I made my own!",
+	"authors": [
+		"LoneFoxKK"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/muh-cannons/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "lonefox.muhcannons.Muhcannons",
+				"adapter": "kotlin"
+			}
+		],
+		"client": [
+			{
+				"value": "lonefox.muhcannons.MuhcannonsClient",
+				"adapter": "kotlin"
+			}
+		],
+		"fabric-datagen": [
+			{
+				"value": "lonefox.muhcannons.MuhcannonsDataGenerator",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"muh-cannons.mixins.json",
+		{
+			"config": "muh-cannons.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"fabric-language-kotlin": ">=1.9.10"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

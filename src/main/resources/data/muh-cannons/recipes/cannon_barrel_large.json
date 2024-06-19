@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "B B",
+    "ABA"
+  ],
+  "key": {
+    "B": {
+      "tag": "c:iron_blocks"
+    },
+    "A": {
+      "tag": "c:iron_ingots"
+    }
+  },
+  "result": {
+    "item": "muh-cannons:cannon_barrel_large",
+    "count": 1
+  }
+}
